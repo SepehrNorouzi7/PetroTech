@@ -6,6 +6,6 @@ app_name = 'post'
 
 urlpatterns = [
     path('', post_view, name='index'),
-    path('single', post_single, name='single'),
+    path('<int:pid>', post_single, name='single'),
 
 ]
