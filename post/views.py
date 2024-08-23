@@ -11,7 +11,7 @@ def post_view(request, **kwargs):
     posts = Paginator(posts, 3)
     try:   
         page_number = request.GET.get('page')
-        posts = posts.get_posts(page_number)
+        posts = posts.get_page(page_number)
     except PageNotAnInteger:
         posts = posts.get_page(1)
     except EmptyPage:
