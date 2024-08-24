@@ -9,11 +9,10 @@
 		<div class="row d-flex align-items-center justify-content-center">
 			<div class="about-content blog-header-content col-lg-12">
 				<h1 class="text-white">
-					Dude You’re Getting
-					a Telescope
+					Let's Explore
 				</h1>
 				<p class="text-white">
-					There is a moment in the life of any aspiring astronomer that it is time to buy that first
+					There are many things that you don't know about us!
 				</p>
 			</div>
 		</div>
@@ -23,64 +22,6 @@
 
 <!-- Start top-category-widget Area -->
 <section class="top-category-widget-area pt-90 pb-90 ">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4">
-				<div class="single-cat-widget">
-					<div class="content relative">
-						<div class="overlay overlay-bg"></div>
-						<a href="#" target="_blank">
-							<div class="thumb">
-								<img class="content-image img-fluid d-block mx-auto"
-									src="{% static 'img/blog/cat-widget1.jpg' %}" alt="">
-							</div>
-							<div class="content-details">
-								<h4 class="content-title mx-auto text-uppercase">Social life</h4>
-								<span></span>
-								<p>Enjoy your social life together</p>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="single-cat-widget">
-					<div class="content relative">
-						<div class="overlay overlay-bg"></div>
-						<a href="#" target="_blank">
-							<div class="thumb">
-								<img class="content-image img-fluid d-block mx-auto"
-									src="{% static 'img/blog/cat-widget2.jpg' %}" alt="">
-							</div>
-							<div class="content-details">
-								<h4 class="content-title mx-auto text-uppercase">Politics</h4>
-								<span></span>
-								<p>Be a part of politics</p>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="single-cat-widget">
-					<div class="content relative">
-						<div class="overlay overlay-bg"></div>
-						<a href="#" target="_blank">
-							<div class="thumb">
-								<img class="content-image img-fluid d-block mx-auto"
-									src="{% static 'img/blog/cat-widget3.jpg' %}" alt="">
-							</div>
-							<div class="content-details">
-								<h4 class="content-title mx-auto text-uppercase">Food</h4>
-								<span></span>
-								<p>Let the food be finished</p>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 </section>
 <!-- End top-category-widget Area -->
 
@@ -104,8 +45,6 @@
 							<p class="date col-lg-12 col-md-12 col-6"><a href="#">{{post.published_date|date:"d M Y"}}</a> <span class="lnr lnr-calendar-full"></span></p>
 							<p class="view col-lg-12 col-md-12 col-6"><a href="#">{{post.counted_views}} Views</a> <span
 									class="lnr lnr-eye"></span></p>
-							<p class="comments col-lg-12 col-md-12 col-6"><a href="#">06 Comments</a> <span
-									class="lnr lnr-bubble"></span></p>
 						</div>
 					</div>
 					<div class="col-lg-9 col-md-9 ">
@@ -156,23 +95,6 @@
 					{% include 'post/blog-writer.html' %}
 					{% latestPosts %}
 					{% postCategories %}
-					<div class="single-sidebar-widget tag-cloud-widget">
-						<h4 class="tagcloud-title">Tag Clouds</h4>
-						<ul>
-							<li><a href="#">Technology</a></li>
-							<li><a href="#">Fashion</a></li>
-							<li><a href="#">Architecture</a></li>
-							<li><a href="#">Fashion</a></li>
-							<li><a href="#">Food</a></li>
-							<li><a href="#">Technology</a></li>
-							<li><a href="#">Lifestyle</a></li>
-							<li><a href="#">Art</a></li>
-							<li><a href="#">Adventure</a></li>
-							<li><a href="#">Food</a></li>
-							<li><a href="#">Lifestyle</a></li>
-							<li><a href="#">Adventure</a></li>
-						</ul>
-					</div>
 				</div>
 			</div>
 		</div>
