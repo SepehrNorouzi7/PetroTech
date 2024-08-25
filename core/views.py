@@ -23,9 +23,9 @@ def contact_view(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.add_message(request, messages.SUCCESS, 'your ticket submited successfully')
+            messages.add_message(request, messages.SUCCESS, 'Your ticket submited successfully')
         else:
-            messages.add_message(request, messages.ERROR, 'your ticket did not submited successfully')
+            messages.add_message(request, messages.ERROR, 'Your ticket did not submited successfully')
     form = ContactForm()
     return render(request, 'contact.html')
 

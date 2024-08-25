@@ -1,6 +1,8 @@
 # PetroTech
 Petro Tech is a leading supplier of industrial tools and equipment, offering a wide range of products from top global brands like Enerpac, Haskel, VEELOK, and Parker at competitive prices. This project is dedicated to introducing this company, along with its products and services.
 
+<video controls width="100%" src="media/Petro Tech.mp4" muted></video>
+
 ### Running project with virtual env
 
 ```Shell
